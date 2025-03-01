@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calentamiento Global</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+        /* Estilos generales */
+        body {
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9f9fc7; /* Fondo claro, parecido a macOS */
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #0078d4; /* Azul de macOS */
+            color: rgb(50, 127, 129);
+            padding: 2rem;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        /* Secciones */
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #961c1c;
+            border-radius: 15px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            background: linear-gradient(135deg, #e1e8f0, #3c7175);
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            font-weight: 700;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p, ul {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        ul li::before {
+            content: "\2714";
+            color: #0078d4; /* Azul como el de macOS */
+            font-weight: bold;
+            padding-right: 10px;
+        }
+
+        /* Estilo de las imágenes (GIFs) */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+            margin-top: 20px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #0078d4;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            border-radius: 15px;
+            box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animación de aparición */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        section, footer {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            header {
+                font-size: 2rem;
+                padding: 1.5rem;
+            }
+
+            section {
+                padding: 20px;
+                margin: 20px;
+            }
+
+            img {
+                margin-top: 15px;
+                max-width: 90%;
+            }
+
+            footer {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        🌍 Calentamiento Global 🌱
+    </header>
+
+    <section>
+        <h2>🌡️ Introducción</h2>
+        <p>El calentamiento global es el aumento de la temperatura promedio de la Tierra debido a la acumulación de gases de efecto invernadero. Este fenómeno tiene efectos devastadores para el clima global y para las especies que habitan el planeta.</p>
+        <img src="images/f150b852-4f30-4c0a-b6e0-2d13c6871c30.gif" alt="GIF">    </section>
+
+    <section>
+        <h2>🔥 Causas</h2>
+        <ul>
+            <li>Emisión de gases de efecto invernadero</li>
+            <li>Deforestación</li>
+            <li>Agricultura y ganadería</li>
+            <li>Industrialización y transporte</li>
+        </ul>
+        <img src="images/93284491_1620422788144.gif" alt="Deforestación">
+    </section>
+
+    <section>
+        <h2>⚠️ Consecuencias</h2>
+        <p>Algunas de las principales consecuencias son:</p>
+        <ul>
+            <li>Derretimiento de los glaciares</li>
+            <li>Eventos climáticos extremos</li>
+            <li>Pérdida de biodiversidad</li>
+            <li>Impactos en la salud humana</li>
+        </ul>
+        <img src="images/deshielo.gif" alt="Derretimiento de los glaciares">
+    </section>
+
+    <section>
+        <h2>💡 Soluciones</h2>
+        <ul>
+            <li>Uso de energías renovables</li>
+            <li>Eficiencia energética</li>
+            <li>Reforestación</li>
+            <li>Reciclaje y reducción de residuos</li>
+            <li>Educación ambiental</li>
+        </ul>
+        <img src="images/Eolica.webp" alt="Energía renovable">
+    </section>
+
+    <footer>
+        🌎 &copy; 2025 Conciencia Ambiental - Protejamos nuestro planeta 🌿
+    </footer>
+</body>
+</html>
