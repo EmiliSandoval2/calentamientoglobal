@@ -104,7 +104,7 @@ footer {
     max-width: 80%; /* Ajusta el ancho máximo según necesites */
     height: auto;
     display: block; /* Para que la imagen ocupe el ancho disponible y tenga márgenes automáticos */
-    margin: 15px auto; /* Centrar la imagen horizontalmente y añadir margen vertical */
+    margin: 20px auto; /* Centrar la imagen horizontalmente y añadir margen vertical */
     border: 1px solid #a17878; /* Un borde suave alrededor de la imagen */
     box-shadow: 2px 2px 5px #ccc; /* Una sombra suave para destacar la imagen */
 }
